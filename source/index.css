@@ -260,3 +260,72 @@ footer{
     padding: 0 40%;
     color: white;
 }
+.naptien-container{
+  display: flex;
+  padding: 0 20%; 
+  gap: 10px 20px;
+}
+#naptien-form{
+  padding: 50px;
+  background-color: bisque;
+  height: 300px;
+  flex: 1;
+  border-radius: 20px;
+  margin-top: 50px;
+  
+}
+.napgame-container{
+  display: flex;
+  padding: 0 20%; 
+  gap: 10px 20px;
+}
+#napgame-form{
+  padding: 50px;
+  background-color: bisque;
+  height: 300px;
+  flex: 1;
+  border-radius: 20px;
+  margin-top: 50px;
+  
+}
+.qr{
+   height: 300px;
+   width: 50%; 
+   background: url(/images/QR\ nhận\ tiền.jpg);
+   flex: 1;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-top: 50px; 
+}
+input#user{
+  width: 80%;
+  margin-top: 10px;
+}
+input#pay{
+  width: 80%;
+  margin-top: 10px;
+}
+input#game-name{
+  width: 80%;
+  margin-top: 10px;
+}
+  button#submit{
+    margin-top: 10px;
+  }
+a{
+  text-decoration: none;
+  color: red;
+}
+table{
+  width: 30%;
+  height: 10vh;
+  flex: 1;
+  background-color: yellow;
+}
+td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.space{
+height: 90vh;
+}
